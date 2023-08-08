@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="ConBox">
-        <div class="box">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Facere adipisci dignissimos quia incidunt debitis hic rerum 
-            mollitia eaque perferendis quis esse, 
-            aut est neque unde. Libero unde hic nobis quae.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Facere adipisci dignissimos quia incidunt debitis hic rerum 
-            mollitia eaque perferendis quis esse, 
-            aut est neque unde. Libero unde hic nobis quae.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Facere adipisci dignissimos quia incidunt debitis hic rerum 
-            mollitia eaque perferendis quis esse, 
-            aut est neque unde. Libero unde hic nobis quae.
+
+    <div class="Contain">
+        <div class="ConBox">
+            <span class="Name">TO DO LIST </span>
+            <div class="box">
+                <ul>
+                    <li>
+                        <div class="taskText">Item 1</div>
+                        <div class="buttons">
+                            <button class="taskDone">✔</button>
+                            <button class="taskDel">❌</button>
+                        </div>
+
+                    </li>
+
+
+                </ul>
+
+            </div>
         </div>
+
+        <div class="ConAdd">
+            <input class="field" type="text" name="" id="taskInput" placeholder="Add Task here">
+            <button class="Add" id="addTaskButton">Add Task</button>
+        </div>
+
     </div>
-    
+    <script src="script.js"></script>
 </body>
+
 </html>
